@@ -62,7 +62,6 @@
 				5BD654112B14EB69005B00E7 /* DemoType.swift */,
 				5BD653FD2B0E5023005B00E7 /* ContentView.swift */,
 				5BD653FB2B0E5023005B00E7 /* PlaygroundApp.swift */,
-				5BD6540E2B14EA36005B00E7 /* SwipeExample */,
 				5BD654092B0E534A005B00E7 /* Custom Navigation */,
 				5BD653FF2B0E5024005B00E7 /* Assets.xcassets */,
 				5BD654012B0E5024005B00E7 /* Preview Content */,
@@ -86,13 +85,6 @@
 				5BD6540C2B0E6A93005B00E7 /* SecondScreen.swift */,
 			);
 			path = "Custom Navigation";
-			sourceTree = "<group>";
-		};
-		5BD6540E2B14EA36005B00E7 /* SwipeExample */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SwipeExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
