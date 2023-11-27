@@ -9,5 +9,5 @@ import Foundation
 
 enum DemoType: String, CaseIterable {
 	case transition = "Two Screen Custom Transition"
-	case swi
+	case categorySwipe = "Horizontal Category Swipe"
 }

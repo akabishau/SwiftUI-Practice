@@ -22,6 +22,7 @@ struct ContentView: View {
 	private func viewForDemo(_ demo: DemoType) -> some View {
 		switch demo {
 			case .transition: TwoScreenCustomTransitionView()
+			case .categorySwipe: CategorySwipeView()
 		}
 	}
 }

@@ -15,6 +15,7 @@
 		5BD6540D2B0E6A93005B00E7 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6540C2B0E6A93005B00E7 /* SecondScreen.swift */; };
 		5BD654102B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6540F2B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift */; };
 		5BD654122B14EB69005B00E7 /* DemoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD654112B14EB69005B00E7 /* DemoType.swift */; };
+		5BD654152B14F77E005B00E7 /* CategorySwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD654142B14F77E005B00E7 /* CategorySwipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5BD6540C2B0E6A93005B00E7 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 		5BD6540F2B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoScreenCustomTransitionView.swift; sourceTree = "<group>"; };
 		5BD654112B14EB69005B00E7 /* DemoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoType.swift; sourceTree = "<group>"; };
+		5BD654142B14F77E005B00E7 /* CategorySwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySwipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5BD654112B14EB69005B00E7 /* DemoType.swift */,
 				5BD653FD2B0E5023005B00E7 /* ContentView.swift */,
 				5BD653FB2B0E5023005B00E7 /* PlaygroundApp.swift */,
+				5BD654132B14F748005B00E7 /* HorizontalSwipe */,
 				5BD654092B0E534A005B00E7 /* Custom Navigation */,
 				5BD653FF2B0E5024005B00E7 /* Assets.xcassets */,
 				5BD654012B0E5024005B00E7 /* Preview Content */,
@@ -85,6 +88,14 @@
 				5BD6540C2B0E6A93005B00E7 /* SecondScreen.swift */,
 			);
 			path = "Custom Navigation";
+			sourceTree = "<group>";
+		};
+		5BD654132B14F748005B00E7 /* HorizontalSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				5BD654142B14F77E005B00E7 /* CategorySwipeView.swift */,
+			);
+			path = HorizontalSwipe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				5BD653FE2B0E5023005B00E7 /* ContentView.swift in Sources */,
 				5BD6540D2B0E6A93005B00E7 /* SecondScreen.swift in Sources */,
 				5BD654122B14EB69005B00E7 /* DemoType.swift in Sources */,
+				5BD654152B14F77E005B00E7 /* CategorySwipeView.swift in Sources */,
 				5BD653FC2B0E5023005B00E7 /* PlaygroundApp.swift in Sources */,
 				5BD654102B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift in Sources */,
 				5BD6540B2B0E5369005B00E7 /* FirstScreen.swift in Sources */,
