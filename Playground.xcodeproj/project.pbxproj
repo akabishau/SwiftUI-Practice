@@ -16,6 +16,9 @@
 		5BD654102B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6540F2B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift */; };
 		5BD654122B14EB69005B00E7 /* DemoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD654112B14EB69005B00E7 /* DemoType.swift */; };
 		5BD654152B14F77E005B00E7 /* CategorySwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD654142B14F77E005B00E7 /* CategorySwipeView.swift */; };
+		5BD6542B2B1945F3005B00E7 /* CardsDeckSwiping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6542A2B1945F3005B00E7 /* CardsDeckSwiping.swift */; };
+		5BD6542D2B195E22005B00E7 /* CardsDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6542C2B195E22005B00E7 /* CardsDeckView.swift */; };
+		5BD654302B196ABF005B00E7 /* DragExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6542F2B196ABF005B00E7 /* DragExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		5BD6540F2B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoScreenCustomTransitionView.swift; sourceTree = "<group>"; };
 		5BD654112B14EB69005B00E7 /* DemoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoType.swift; sourceTree = "<group>"; };
 		5BD654142B14F77E005B00E7 /* CategorySwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySwipeView.swift; sourceTree = "<group>"; };
+		5BD6542A2B1945F3005B00E7 /* CardsDeckSwiping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDeckSwiping.swift; sourceTree = "<group>"; };
+		5BD6542C2B195E22005B00E7 /* CardsDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDeckView.swift; sourceTree = "<group>"; };
+		5BD6542F2B196ABF005B00E7 /* DragExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 				5BD653FB2B0E5023005B00E7 /* PlaygroundApp.swift */,
 				5BD654132B14F748005B00E7 /* HorizontalSwipe */,
 				5BD654092B0E534A005B00E7 /* Custom Navigation */,
+				5BD6542E2B196AA3005B00E7 /* Gestures */,
 				5BD653FF2B0E5024005B00E7 /* Assets.xcassets */,
 				5BD654012B0E5024005B00E7 /* Preview Content */,
 			);
@@ -96,6 +103,24 @@
 				5BD654142B14F77E005B00E7 /* CategorySwipeView.swift */,
 			);
 			path = HorizontalSwipe;
+			sourceTree = "<group>";
+		};
+		5BD654272B18FE1C005B00E7 /* Cards Deck */ = {
+			isa = PBXGroup;
+			children = (
+				5BD6542A2B1945F3005B00E7 /* CardsDeckSwiping.swift */,
+				5BD6542C2B195E22005B00E7 /* CardsDeckView.swift */,
+			);
+			path = "Cards Deck";
+			sourceTree = "<group>";
+		};
+		5BD6542E2B196AA3005B00E7 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				5BD654272B18FE1C005B00E7 /* Cards Deck */,
+				5BD6542F2B196ABF005B00E7 /* DragExample.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +197,12 @@
 				5BD6540D2B0E6A93005B00E7 /* SecondScreen.swift in Sources */,
 				5BD654122B14EB69005B00E7 /* DemoType.swift in Sources */,
 				5BD654152B14F77E005B00E7 /* CategorySwipeView.swift in Sources */,
+				5BD6542B2B1945F3005B00E7 /* CardsDeckSwiping.swift in Sources */,
 				5BD653FC2B0E5023005B00E7 /* PlaygroundApp.swift in Sources */,
+				5BD6542D2B195E22005B00E7 /* CardsDeckView.swift in Sources */,
 				5BD654102B14EA89005B00E7 /* TwoScreenCustomTransitionView.swift in Sources */,
 				5BD6540B2B0E5369005B00E7 /* FirstScreen.swift in Sources */,
+				5BD654302B196ABF005B00E7 /* DragExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

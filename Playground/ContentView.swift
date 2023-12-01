@@ -23,6 +23,8 @@ struct ContentView: View {
 		switch demo {
 			case .transition: TwoScreenCustomTransitionView()
 			case .categorySwipe: CategorySwipeView()
+			case .cardDeck: CardsDeckView()
+			case .cardDecKSwipe: CardsDeckViewSwiping()
 		}
 	}
 }
